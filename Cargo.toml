@@ -1,6 +1,6 @@
 [package]
 name = "cfg_log"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Federico Stra <stra.federico@gmail.com>"]
 description = "Compile time conditional logging"
