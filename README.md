@@ -44,3 +44,5 @@ fn main() {
 
 The `debug!` macro will automatically expand to `log::debug!` if the `log` feature is enabled,
 or it will be discarded at compile time otherwise.
+
+See [test_cfg_log](https://github.com/FedericoStra/cfg_log/tree/master/test_cfg_log) for an example package.
