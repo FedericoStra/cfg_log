@@ -1,0 +1,11 @@
+[package]
+name = "test_cfg_log"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cfg_log = { version = "0.1.0", path = ".." }
+log = { version = "0.4.17", optional = true }
+simple_logger = "2.3.0"

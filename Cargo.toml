@@ -1,0 +1,15 @@
+[package]
+name = "cfg_log"
+version = "0.1.0"
+edition = "2021"
+authors = ["Federico Stra <stra.federico@gmail.com>"]
+description = "Compile time conditional logging"
+license = "MIT"
+repository = "https://github.com/FedericoStra/cfg_log"
+categories = ["development-tools::debugging"]
+keywords = ["logging"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = ["test_cfg_log"]
